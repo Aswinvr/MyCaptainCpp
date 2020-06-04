@@ -1,0 +1,11 @@
+#include<iostream.h>
+#include<conio.h>
+using namespace std;
+void main()
+{
+cout<<"Size of char: "<<sizeof(char)<<" byte";
+cout<<"Size of int: "<<sizeof(int)<<" bytes";
+cout<<"Size of float: "<<sizeof(float)<<" bytes";
+cout<<"Size of double: "<<sizeof(double)<<" bytes";
+return 0;
+{
