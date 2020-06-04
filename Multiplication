@@ -1,0 +1,12 @@
+#include<iostream.h>
+#include<conio.h>
+using namespace std;
+void main()
+{
+float a;
+float b;
+cout<<"Enter two numbers: ";
+cin>>a>>b;
+cout<<"Product = "<<a*b;
+return 0;
+}
