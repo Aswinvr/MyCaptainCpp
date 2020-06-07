@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+int election();//Declaration of the function
+int main()
+{
+     int a; //Declaration of a variable to store the age input
+     cout<<"Enter your age please : ";
+     cin>>a;
+     if(a<18)
+     {
+               cout<<"You are not old enough. Please wait or another"<<18-a<<"Year(s)";
+     }
+           
+      else
+      {
+          cout<<"Yes you are old enough to vote in this election"<<endl;
+          cout<<"Go inside the election booth to cast your vote. Keep in mind, your vote decides the future of your own life.";
+          election();
+      }
+      return 0;
+}      
+                   
+
+int election()
+{
+    int v;//To store the value given by the user while executing below codes
+    cout<<"Select the party you wish to cast your vote to : ";
+    cout<<"1.ABC\n2.DEF\n3.GHI\n4.JKLM\n5.NOP\n--";
+    cin>>v;
+    cout<<"Congratulations. Your vote has been casted to option : "<<v;
+    return 0;
+}
