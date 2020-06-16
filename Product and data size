@@ -1,0 +1,31 @@
+//Product conde first
+
+
+#include<iostream.h>
+#include<conio.h>
+using namespace std;
+void main()
+{
+float a;
+float b;
+cout<<"Enter two numbers: ";
+cin>>a>>b;
+cout<<"Product = "<<a*b;
+return 0;
+}
+
+
+//Program to give data size is as follows
+
+  
+#include<iostream.h>
+#include<conio.h>
+using namespace std;
+void main()
+{
+cout<<"Size of char: "<<sizeof(char)<<" byte";
+cout<<"Size of int: "<<sizeof(int)<<" bytes";
+cout<<"Size of float: "<<sizeof(float)<<" bytes";
+cout<<"Size of double: "<<sizeof(double)<<" bytes";
+return 0;
+}
